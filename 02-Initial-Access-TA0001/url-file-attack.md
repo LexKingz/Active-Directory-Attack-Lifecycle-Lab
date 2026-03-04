@@ -63,7 +63,7 @@ The `@` ensures the file appears at the top of the directory listing.
 
 📸 Screenshot:
 
-* `screenshots/urlcodefile.png`
+* `screenshots/urlfileattack/urlcodefile.png`
 
 ---
 
@@ -89,7 +89,7 @@ responder -I wlan0 -v
 
 📸 Screenshot:
 
-* `screenshots/responder-url-attack1.png`
+* `screenshots/urlfileattack/responder-url-attack1.png`
 
 ---
 
@@ -103,7 +103,7 @@ When the victim browses the SMB folder:
 
 📸 Screenshot:
 
-* `screenshots/responder-url-attack2.png`
+* `screenshots/urlfileattack/responder-url-attack2.png`
 
 Captured hash type:
 
@@ -121,7 +121,7 @@ NTLMv2 → Mode 5600
 
 📸 Screenshot:
 
-* `screenshots/hash-module-url-attack.png`
+* `screenshots/urlfileattack/hash-module-url-attack.png`
 
 ---
 
@@ -133,8 +133,8 @@ hashcat -m 5600 hash1.txt /usr/share/wordlists/rockyou.txt -O
 
 📸 Screenshot:
 
-* `screenshots/hashcat-url-attack1.png`
-* `screenshots/hashcat-url-attack2.png`
+* `screenshots/urlfileattack/hashcat-url-attack1.png`
+* `screenshots/urlfileattack/hashcat-url-attack2.png`
 
 Recovered credentials:
 
@@ -157,8 +157,8 @@ With valid Administrator credentials:
 
 📸 Screenshots:
 
-* `screenshots/root-shell-url-attack1.png`
-* `screenshots/root-shell-url-attack2.png`
+* `screenshots/urlfileattack/root-shell-url-attack1.png`
+* `screenshots/urlfileattack/root-shell-url-attack2.png`
 
 Note: Password required single quotes due to special characters:
 
