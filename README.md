@@ -53,9 +53,9 @@ This allows realistic chaining of attack techniques.
 
 06-Lateral-Movement-TA0008/
     ├── pass-the-hash.md
+    ├── ── crackmapexec.md
     ├── smb-relay.md
-    ├── crackmapexec.md
-    ├── pivoting.md
+    ├── 📁 pivoting.md
 
 07-Persistence-TA0003/
     ├── golden-ticket.md
