@@ -41,7 +41,7 @@ lsadump::lsa /inject /name:krbtgt
 📸 Screenshot:
 
 ```
-screenshot/01-krbtgt-credentials.png
+screenshots/01-krbtgt-credentials.png
 ```
 
 From the output, we need:
@@ -78,7 +78,7 @@ kerberos::golden /User:Administrator \
 📸 Screenshot:
 
 ```
-screenshot/02-golden-ticket-forged-submitted.png
+screenshots/02-golden-ticket-forged-submitted.png
 ```
 
 At this point, a forged Kerberos TGT has been injected into memory.
@@ -108,7 +108,7 @@ dir \\DR-ADAM\c$
 📸 Screenshot:
 
 ```
-screenshot/03-access-to-other-user.png
+screenshots/03-access-to-other-user.png
 ```
 
 If successful, this confirms:
@@ -146,7 +146,7 @@ PsExec.exe \\DR-ADAM cmd.exe
 📸 Screenshot:
 
 ```
-screenshot/04-psexec-gain-shell-via-golden-ticket.png
+screenshots/04-psexec-gain-shell-via-golden-ticket.png
 ```
 
 If successful:
@@ -157,8 +157,8 @@ If successful:
 📸 Additional shells:
 
 ```
-screenshot/05-psexec-gain-another-shell-via-golden-ticket.png
-screenshot/06-psexec-gain-others-shell-via-golden-ticket.png
+screenshots/05-psexec-gain-another-shell-via-golden-ticket.png
+screenshots/06-psexec-gain-others-shell-via-golden-ticket.png
 ```
 
 This demonstrates lateral movement across multiple hosts using the forged Golden Ticket.
